@@ -597,8 +597,8 @@ a {
 
 .list-navi {
   position: relative;
-  padding-bottom: 24px;
-  padding-top: 24px;
+  padding-bottom: 28px;
+  padding-top: 28px;
 }
 
 .current::after {
