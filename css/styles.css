@@ -56,7 +56,7 @@ a {
 
 .header {
   border-bottom: 1px solid #e7e9fc;
-  padding: 24px 0;
+  
 }
 
 .heder-case {
@@ -594,4 +594,23 @@ a {
 .modal-btn:focus {
   background: var(--btn-text-color);
   fill: var(--btn-bg-color);
+}
+
+.list-navi {
+  position: relative;
+  padding-bottom: 24px;
+  padding-top: 24px;
+}
+
+.current::after {
+  position: absolute;
+    display: block;
+    content: '';
+    width: 100%;
+    height: 4px;
+    left: 0;
+    bottom: -1px;
+    border-radius: 2px;
+  background: #404bbf;
+  transition: color(--hover-transition);
 }
